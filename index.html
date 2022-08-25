@@ -6,8 +6,12 @@
         <meta name="description" content="Pagina web personal de Sergio Carrascosa Sanchez">
         <meta name="keywords" content="Sergio Carrascosa Sanchez, Sergio, Carrascosa, Sanchez">   
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         
     </head>
     <body>
@@ -23,9 +27,6 @@
                 <li>
                     <a href="#ProyectosAncla">Proyectos</a>
                     
-                </li>
-                <li>
-                    <a href="#Contacto">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -44,9 +45,6 @@
                 <li>
                     <a href="#ProyectosAncla">Proyectos</a>     
                 </li>
-                <li>
-                    <a href="#Contacto">Contacto</a>
-                </li>
             </ul>
             <img id="BotonMenu" src="imagenes/BotonMenu.jpg">
             <p id="BotonMenuTexto">.</p>
@@ -54,97 +52,71 @@
         </nav>
 
 
-        <section id="PortadaPrincipal">
-            <img id="NYC_Principal"src="imagenes/PortadaPrincipal.jpg">
-            <h1>
-                Hola, me llamo<br><span id="Nombre">Sergio Carrascosa</span>
-            </h1>
-            <p>
-                En esta página web comparto los proyectos que he desarrollado a lo largo de mi carrera profesional
-            </p>
-            <img id="NYC_Pequeña" src="imagenes/PortadaPrincipal.jpg">
+        <section class="frontWrapper" id="PortadaPrincipal">
+            <img class="frontImage" id="NYC_Principal"src="imagenes/PortadaPrincipal.jpg">
+            <div class="frontContainer">
+                <h1 class="title">
+                    Hola, me llamo<br><span class="titleSpan">Sergio Carrascosa</span>
+                </h1>
+                <p class="titleParagraph">
+                    En esta página web comparto los proyectos que he desarrollado a lo largo de mi carrera profesional
+                </p>
+                <div class="logosContainer">
+                    <a class="logo" target="_blank" href="https://twitter.com/Sergics11">
+                        <img src="imagenes/TwitterLogo.png">
+                    </a>
+                    <a class="logo" target="_blank" href="https://github.com/SergioCarrascosaSanchez">
+                        <img src="imagenes/GitHub-logo.png">
+                    </a>
+                    <a class="logo" target="_blank" href="https://www.linkedin.com/in/sergio-carrascosa-s%C3%A1nchez-867bab1a1/">
+                        <img src="imagenes/LinkedinLogo.png">
+                    </a>
+                </div>
+            </div>
            
         </section>
 
 
-        <section id="Sobremi">
-            <p2 id="SobremiAncla">Ancla</p2>
-            <h1>Sobre mí</h1> 
-            <table id="TablaSobremi">
-                <tr>
-                    <td>
-                        <img id="ImagenSobremiArriba" src="imagenes/FotoSobreMi.jpg">
-                    </td>
-                    <td>
-                        <p>Apasionado de las nuevas tecnologías y la programación.
-                            <br><br>
-                            Me considero una persona proactiva e inconformista, y estoy realmente interesado en continuar formándome y aprendiendo.
-                            <br><br>
-                            Actualmente estoy cursando el cuarto año de un doble grado en Ingeniería Informática y Administración y Dirección de Empresas en la Universidad Rey Juan Carlos de Madrid.
-                        </p>
-                    </td>
-                </tr>
-            </table>   
-            <img id="ImagenSobremiAbajo" src="imagenes/FotoSobreMi.jpg">
+        <section class="sectionContainer" id="Sobremi">
+            <p id="SobremiAncla" class="anchor">Ancla</p>
+            <h2 class="sectionTitle">Sobre mí</h2>
+            <div class="imgTextWrapper">
+                <img class="image" src="imagenes/FotoSobreMi.jpg">
+                <p class="sectionParagraph">
+                    Apasionado de las nuevas tecnologías y la programación.
+                    <br><br>
+                    Me considero una persona proactiva e inconformista, y estoy realmente interesado en continuar formándome y aprendiendo.
+                    <br><br>
+                    Actualmente estoy cursando el cuarto año de un doble grado en Ingeniería Informática y Administración y Dirección de Empresas en la Universidad Rey Juan Carlos de Madrid.
+                </p>
+            </div> 
         </section>
 
 
-        <section id="Trabajos">
-            <p id="ProyectosAncla">Ancla</p>
-            <h1 id="ProyectoTitulo">Proyectos</h1>
-            <table id="TablaProyectos">
-                <tr>
-                    <td class="ImagenesGrandesProyectos">
-                       <img id="ImagenHTMLyCSS" src="imagenes/ImagenHTMLyCSS.jpg"> 
-                    </td>
-                    <td>
-                        <h2>Página web personal</h2>
-                        <p>Es un portfolio web en el que cuento un poco más a cerca de mí y muestro los 
-                            proyectos que he realizado.
-                            <br>
-                            <br>
-                            Esta página web ha sido desarrollada completamente desde cero 
-                            a modo de proyecto personal para poder poner en práctica los 
-                            conocimientos de HTML, CSS y JavaScript que he aprendido de forma autodidacta.
+        <section class="sectionContainer" id="Trabajos">
+            <p id="ProyectosAncla" class="anchor">Ancla</p>
+            <h2 class="sectionTitle" id="ProyectoTitulo">Proyectos</h2>
+            <section id="webPersonal">
+                <div class="imgTextWrapper">
+                    <img class="image" src="imagenes/ImagenHTMLyCSS.jpg">
+                    <div class="sectionParagraph">
+                        <h3 class="sectionSubtitle">Página web personal</h3>
+                        <br>
+                        <p>
+                        Es un portfolio web en el que cuento un poco más a cerca de mí y muestro los 
+                        proyectos que he realizado.
+                        <br>
+                        <br>
+                        Esta página web ha sido desarrollada completamente desde cero 
+                        a modo de proyecto personal para poder poner en práctica los 
+                        conocimientos de HTML, CSS y JavaScript que he aprendido de forma autodidacta.
                         </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="Imagenes950px">
-                        <img id="ImagenHTMLyCSS2" src="imagenes/ImagenHTMLyCSS.jpg"> 
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <section id="Contacto">
-            <h1 id="ContactoTitulo">Contacto</h1>
-            <table id="TablaContacto">
-                <tr>
-                    <td>
-                        <img id="LinkedinImg" src="IconosContacto/linkedin.jpg">
-                    </td>
-                    <td>
-                        <a href="https://www.linkedin.com/in/sergio-carrascosa-s%C3%A1nchez-867bab1a1/"target="_blank">
-                            <p>Sergio Carrascosa Sánchez</p>
+                        <a target="_blank" href="https://github.com/SergioCarrascosaSanchez/SergioCarrascosaSanchez.github.io">
+                            <img class="gitHubLogoLink"src="imagenes/GitHub-logo.png">
                         </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img id="EmailImg" src="IconosContacto/email.jpg">
-                    </td>
-                    <td><p>sercarsa11@gmail.com</p></td>
-                </tr>
-                <tr>
-                    <td>
-                        <img id="TelefonoImg" src="IconosContacto/Telefono.jpg">
-                    </td>
-                    <td><p>605 88 15 93</p></td>
-                </tr>
-            </table>
-
-
+                    </div>
+                </div>
+            </section>
         </section>
     </body>
 </html>
