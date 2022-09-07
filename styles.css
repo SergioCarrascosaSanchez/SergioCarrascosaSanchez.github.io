@@ -196,7 +196,8 @@
         display: grid;
         grid-template-columns: 33% 67%;
         grid-gap: 100px;
-        margin-top: 40px
+        margin-top: 40px;
+        margin-bottom: 150px;
     }
 
     .sectionTitle{
@@ -226,9 +227,11 @@
     .image{
         grid-column: 1;
         grid-row: 1;
-        width: 327.6px;
-        height: 409.6px;    
+        width: 350px;
+        height: 350px;    
         border-radius: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .gitHubLogoLink{
@@ -236,6 +239,13 @@
         height: 50px;
         display: block;
         margin-top: 20px;
+    }
+    .imageSobreMi{
+        grid-column: 1;
+        grid-row: 1;
+        width: 327.6px;
+        height: 409.6px;    
+        border-radius: 30px;
     }
 }
 
@@ -313,6 +323,7 @@
         display: grid;
         grid-template-columns: 33% 67%;
         grid-gap: 100px;
+        margin-bottom: 100px;
     }
 
     .sectionTitle{
@@ -337,12 +348,22 @@
         font-family: Roboto, sans-serif, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 
-    .image{
+    .imageSobreMi{
         grid-column: 1;
         grid-row: 1;
         width: 327.6px;
         height: 409.6px;    
         border-radius: 30px;
+    }
+
+    .image{
+        grid-column: 1;
+        grid-row: 1;
+        width: 320px;
+        height: 320px;    
+        border-radius: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .gitHubLogoLink{
@@ -455,6 +476,16 @@
     .image{
         grid-column: 1;
         grid-row: 1;
+        width: 300px;
+        height: 300px;    
+        border-radius: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .imageSobreMi{
+        grid-column: 1;
+        grid-row: 1;
         width: 327.6px;
         height: 409.6px;    
         border-radius: 30px;
@@ -543,7 +574,8 @@
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: 2;
-        grid-gap: 90px;
+        grid-gap: 0px;
+        margin-bottom: 120px;
     }
 
     .sectionTitle{
@@ -571,13 +603,26 @@
         margin:auto;
     }
 
+    .imageSobreMi{
+        margin-top: 70px;
+        grid-column: 1;
+        grid-row: 2;
+        margin-left:auto;
+        margin-right: auto;
+        width: 393.12px;
+        height: 491.52px;    
+        border-radius: 30px;
+    }
+
     .image{
         grid-column: 1;
         grid-row: 2;
         margin-left:auto;
         margin-right: auto;
-        width: 393.12x;
-        height: 491.52px;    
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 250px;
+        height: 250px;    
         border-radius: 30px;
     }
     .gitHubLogoLink{
