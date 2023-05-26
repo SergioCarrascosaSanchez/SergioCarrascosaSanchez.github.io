@@ -9,7 +9,7 @@ import PortfolioPic from "./assets/Portfolio.png";
 export const ProjectArray = [
     {
       title: "CryptoMynce",
-      description:"Simulador de trading con Criptomonedas. Está implementado con React y Spring Boot principalmente, aunque también se han utilizado  tecnologías y librerías como Docker, Cypress, JUnit, React Testing Library, Vitest, MUI o JWT. Además, se ha incluido Integración Continua con Github Actions y está desplegado en la plataforma OktetoCloud. La mayoría de las tecnologías utilizadas fueron  aprendidas de manera autodidacta",
+      description:"Simulador de trading con Criptomonedas. Está implementado con React y Spring Boot principalmente, aunque también se han utilizado  tecnologías y librerías como Docker, Cypress, JUnit, React Testing Library, Vitest, MUI o JWT. Además, se ha incluido Integración Continua con Github Actions y está desplegado en la plataforma OktetoCloud. La mayoría de las tecnologías utilizadas fueron  aprendidas de manera autodidacta.",
       technologies:[
         "React",
         "Javascript",
@@ -27,13 +27,13 @@ export const ProjectArray = [
     },
     {
       title: "Página web personal",
-      description:"Es mi portafolio web personal, donde actualizo todos los proyectos personales que voy realizando por mi cuenta y comparto mi trayectoria profesional. Es el primer proyecto que desarrollo utilizando tanto Typescript y como TailwindCSS. Ambas tecnologías las he aprendido de forma completamente autodidacta.",
+      description:"Es el portafolio donde actualizo todos los proyectos que voy realizando por mi cuenta y comparto mi trayectoria profesional. Es el primer proyecto que desarrollo utilizando tanto Typescript como TailwindCSS. Ambas tecnologías las he aprendido de forma completamente autodidacta.",
       technologies: ["React", "Typescript", "Tailwind"],
       listOfImageSrc: [PortfolioPic],
     },
     {
       title: "ON TASK",
-      description:"ON TASK es un gestor de tareas simple creado con React y Spring. Durante este verano he estado aprendiendo React de forma autodidacta con el objetivo de utilizarlo en mi Trabajo Fin de Grado que comenzaré en los próximos meses. Para poner en práctica todo lo aprendido, he desarrollado este proyecto. Además, me ha servido para profundizar un poco más en tecnologías como Spring o Bootstrap, y aprender otras como JsonWebTokens. Puedes encontrar más información haciendo click en el logo de Github.",
+      description:"ON TASK es un gestor de tareas simple creado con React y Spring. Durante el verano de 2022 estuve aprendiendo React de forma autodidacta con el objetivo de utilizarlo en el Trabajo Fin de Grado de 2023. Para poner en práctica todo lo aprendido, desarrollé este proyecto. Además, me ha servido para profundizar un poco más en tecnologías como Spring o Bootstrap, y aprender otras como JsonWebTokens.",
       technologies: ["React", "Javascript", "Spring", "Bootstrap", "JWT"],
       listOfImageSrc:[GroupPic, TaskPic, ProfilePic],
     }
