@@ -29,7 +29,7 @@ export function MainSection() {
           <img
             src={ImagenPortada}
             alt="Imagen de perfil para la portada de la web"
-            className="rounded-lg"
+            className="rounded-lg transform scale-x-[-1]"
           ></img>
         </div>
       </div>
