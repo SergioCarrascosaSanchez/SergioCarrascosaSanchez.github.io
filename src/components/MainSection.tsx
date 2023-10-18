@@ -1,5 +1,5 @@
 import { IconList } from "./IconList";
-import ImagenPortada from "../assets/PortadaPrincipal.jpg";
+import ImagenPortada from "../assets/PortadaPrincipalNueva.jpg"
 
 export function MainSection() {
   return (
@@ -12,12 +12,11 @@ export function MainSection() {
           </h1>
           <p className=" text-base font-medium text-slate-900 mb-2 xl:mb-5 2xl:mb-5 lg:mb-5 text-justify 2xl:text-xl xl:text-xl lg:text-xl md:text-xl text-base 2xl:p-0-xl xl:p-0 lg:p-0 md:p-0 pl-3 pr-3">
             Actualmente estoy buscando mi primera oportunidad laboral como
-            desarrollador web, principalmente{" "}
-            <span className="text-violet-900 font-bold">Frontend</span> o{" "}
-            <span className="text-violet-900 font-bold">Full Stack</span>!{" "}
+            desarrollador {" "}
+            <span className="text-violet-900 font-bold">Frontend</span>.
             <br></br>
             Me encantaría trabajar con{" "}
-            <span className="text-violet-900 font-bold">React</span>, aunque
+            <span className="text-violet-900 font-bold">Angular</span> o <span className="text-violet-900 font-bold">React</span>, aunque
             estoy abierto a todo tipo de ofertas, porque también me gusta
             aprender cosas nuevas. <br></br>
           </p>
@@ -29,7 +28,7 @@ export function MainSection() {
           <img
             src={ImagenPortada}
             alt="Imagen de perfil para la portada de la web"
-            className="rounded-lg transform scale-x-[-1]"
+            className="rounded-lg"
           ></img>
         </div>
       </div>
