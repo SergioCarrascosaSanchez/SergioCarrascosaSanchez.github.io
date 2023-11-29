@@ -45,7 +45,7 @@ export const ProjectArray = [
 export const ExperienceArray = [
   {
     title: "Software Engineer I",
-    company: "KPMG (Junio 2023 - Actualidad)",
+    company: "Minsait (Junio 2023 - Actualidad)",
     description:
       "Desarrollo y mantenimiento con Java de integraciones entre los diferentes programas utilizados por el cliente.",
   },
