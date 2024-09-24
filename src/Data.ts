@@ -80,7 +80,7 @@ export const ExperienceArray = [
     company: "Minsait (Junio 2023 - Feb-2024)",
     description:
       "Desarrollador Frontend con React y NextJS para diversos clientes.",
-    technologies: ["React", "NextJS", "Javascript"],
+    technologies: ["React", "NextJS", "Typescript", "Cypress"],
   },
   {
     logo: KPMG,
